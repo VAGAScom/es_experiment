@@ -7,7 +7,7 @@ module EsExperiment::Actions
       docs = docs.map do |doc|
         { index: { _index: config.index, _type: '_doc', data: doc } }
       end
-      client.bulk(body: docs)
+      client.bulk(body: docs, refresh: true)
     end
   end
 end

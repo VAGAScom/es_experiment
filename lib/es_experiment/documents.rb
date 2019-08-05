@@ -33,7 +33,7 @@ class EsExperiment::Documents
 
   def load_doc(doc_path, file)
     name = File.basename(file, '.json')
-    data = Oj.load(File.read(File.join(Rails.root, doc_path, file)))
+    data = Oj.load(File.read(File.join(Dir.pwd, doc_path, file)))
     set(name, data)
   end
 end

@@ -14,6 +14,6 @@ class EsExperiment::Config
   end
 
   def schema
-    @schema ||= Oj.load(File.read(Rails.root.join(schema_path)))
+    @schema ||= Oj.load(File.read(File.join(Dir.pwd, schema_path)))
   end
 end

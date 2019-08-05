@@ -1,0 +1,18 @@
+[
+  {
+    "personal_data": {
+      "name": "Fulano"
+    },
+    "address": {
+      "street": "Twenty Avenue"
+    }
+  },
+  {
+    "personal_data": {
+      "name": "Beltrano"
+    },
+    "address": {
+      "street": "9th Street"
+    }
+  }
+]
