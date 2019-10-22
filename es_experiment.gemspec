@@ -8,14 +8,14 @@ Gem::Specification.new do |spec|
   spec.name          = 'es_experiment'
   spec.version       = EsExperiment::VERSION
   spec.authors       = ['Caio Penhalver']
-  spec.email         = ['caio.penhalver@gmail.com']
+  spec.email         = ['caio.penhalver@vagas.com.br']
 
   spec.summary       = 'Library that helps create and index documents in Elasticsearch'
   spec.description   = 'Library that helps create and index documents in Elasticsearch'
   spec.homepage      = 'https://github.com/VAGAScom'
   spec.license       = 'MIT'
 
-  spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+  # spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata['homepage_uri'] = 'https://github.com/VAGAScom'
   spec.metadata['source_code_uri'] = 'https://github.com/VAGAScom'
