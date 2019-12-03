@@ -61,7 +61,9 @@ TODO: Write usage instructions here
 
 ## TODOs
 
-- Increase the tests coverage.
+- Increase test coverage.
+- Inline documentation.
+- Update readme.
 
 ## Development
 
